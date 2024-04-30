@@ -46,4 +46,17 @@
     Honeyresolver.py
 
 #### Network reconnaissance can be performed by either active or passive means ╰(*°▽°*)╯
+    active reconn --> interact with enviroment
+        Port Scanning --> Active IP and Ports
+        vunerability Scanning -- Active Services and Ports and IP's
+    passive reconn --> eavesdropping on the traffic or OSINT(Open Source Intelligence)
+
+#### Scanning networks with scapy
+    SYN scan --> sends TCP SYN packets to the desired port looking for that SYN\ACK packet in the response
+
+    DNS scan --> checks for DNS service running on the targeted system
+
+    add the scapy library to your code (☞ﾟヮﾟ)☞
+
+    Dont forget to install scapy dependencies (*/ω＼*)
 
